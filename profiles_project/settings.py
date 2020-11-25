@@ -28,7 +28,8 @@ DEBUG = bool(int(os.environ.get('Debug', 1)))
 ALLOWED_HOSTS = [
     'ec2-52-56-196-255.eu-west-2.compute.amazonaws.com',
     '52.56.196.255',
-    'www.williammower.co.uk'
+    'www.williammower.co.uk',
+    'williammower.co.uk',
     '127.0.0.1',
     'localhost'
 ]
